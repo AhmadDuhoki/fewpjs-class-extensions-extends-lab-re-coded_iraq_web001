@@ -10,7 +10,9 @@ class Polygon{
   get perimeter(){
     let sum = this.sides.reduce((acc, curr) => {
       return acc += curr;
-    })
-    return this.sides
+    }, 0);
+    return sum;
   }
 }
+
+class Triangle extends from 
