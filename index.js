@@ -23,6 +23,12 @@ class Triangle extends Polygon{
     
     if(side1 + side2 > side3 && side3 + side2 > side1 && side1 + side3 > side2){
       return true;
+    }else{
+      return false;
     }
   }
+}
+
+class Square extends Polygon{
+  
 }
