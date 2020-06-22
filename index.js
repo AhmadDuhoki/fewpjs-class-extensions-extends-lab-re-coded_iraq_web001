@@ -15,4 +15,8 @@ class Polygon{
   }
 }
 
-class Triangle extends from 
+class Triangle extends Polygon{
+  get isValid(){
+    
+  }
+}
