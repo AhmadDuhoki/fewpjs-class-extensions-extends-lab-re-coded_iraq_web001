@@ -1,13 +1,16 @@
 class Polygon{
   constructor(arrayOfInt){
-    this.side = arrayOfInt;
+    this.sides = arrayOfInt;
   }
   
   get countSides(){
-    return this.side.length;
+    return this.sides.length;
   }
   
   get perimeter(){
-    return this.side
+    let sum = this.sides.reduce((acc, curr) => {
+      return acc += curr;
+    })
+    return this.sides
   }
 }
